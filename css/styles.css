@@ -449,6 +449,7 @@ img.muy-pequena{
 }
 
 
+*/
 
 #contacto-section {
     max-width: 500px;
@@ -509,12 +510,6 @@ img.muy-pequena{
     border-color: red;
     border-width: 5px;
 }
-
-.container{
-    padding:20px;
-    color: #0288d1;
-}
-
 .btn{
     background-color: #0288d1;
     padding-bottom: 10px;
@@ -530,6 +525,15 @@ img.muy-pequena{
     border-color: red;
     border-width: 5px;
 }*/
+
+
+/*
+.container{
+    padding:20px;
+    color: #0288d1;
+}
+
+
 
 
 /*

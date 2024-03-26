@@ -418,25 +418,7 @@ ul.navega li {
 }
 
 /*contacto*/
-.contenedor {
-  margin-top: 10px;
-  display: flex;
-  padding: 25px;
-}
-
-.contenedor-contacto {
-  padding-left: 40px;
-  padding-bottom: 40px;
-  padding-right: 40px;
-  display: flex;
-  align-items: left;
-  text-align: justify;
-}
-
-.contacto {
-  margin-bottom: 15px;
-}
-.contactocontacto-section {
+#contacto-section {
   max-width: 500px;
   margin: 20px auto;
   padding: 15px;
@@ -445,18 +427,18 @@ ul.navega li {
   color: #000000;
   border-radius: 15px;
 }
-.contactocontacto-section form {
+#contacto-section form {
   margin-top: 0px;
   width: 100%;
 }
-.contactocontacto-section label {
+#contacto-section label {
   display: inline-block;
   width: 100%;
   font-weight: bold;
   font-size: 20px;
   margin-bottom: 15px;
 }
-.contactocontacto-section input textarea {
+#contacto-section input {
   display: inline-block;
   width: 100%;
   padding: 0px;
@@ -465,7 +447,16 @@ ul.navega li {
   margin-bottom: 15px;
   border-radius: 10px;
 }
-.contactocontacto-sectionmensaje {
+#contacto-section textarea {
+  display: inline-block;
+  width: 100%;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+#contacto-section #mensaje {
   width: 100%;
   height: 180px;
   padding: 15px;
@@ -475,7 +466,7 @@ ul.navega li {
   border-radius: 10px;
   resize: vertical;
 }
-.contactocontacto-sectionmensaje input[type=submit] {
+#contacto-section #mensaje input[type=submit] {
   width: 50%;
   margin-left: 110px;
   background-color: #0288d1;
@@ -486,15 +477,10 @@ ul.navega li {
   padding: 10px 15px;
   transition: border color 0.3s ease;
 }
-.contactocontacto-sectionmensaje input[type=submit]:hover {
+#contacto-section #mensaje input[type=submit]:hover {
   background-color: #0288d1;
   border-color: red;
   border-width: 5px;
-}
-
-.container {
-  padding: 20px;
-  color: #0288d1;
 }
 
 .btn {

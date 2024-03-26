@@ -1,22 +1,6 @@
 /*contacto*/
 
-.contenedor{
-    margin-top: 10px;
-    display: flex;
-    padding: 25px;
-}
-
-.contenedor-contacto{
-    padding-left: 40px;
-    padding-bottom: 40px;
-    padding-right: 40px;
-    display: flex;
-    align-items: left;
-    text-align: justify;
-}
-.contacto{
-    margin-bottom: 15px;
-    &contacto-section {
+    #contacto-section {
         max-width: 500px;
         margin: 20px auto;
         padding: 15px;
@@ -35,7 +19,15 @@
             font-size: 20px;
             margin-bottom: 15px;
         }
-        input
+        input{
+        display: inline-block;
+        width: 100%;
+        padding: 0px;
+        box-sizing: border-box;
+        font-size: 20px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        }
         textarea{
             display: inline-block;
             width: 100%;
@@ -45,7 +37,7 @@
             margin-bottom: 15px;
             border-radius: 10px;
         }
-        &mensaje {
+        #mensaje {
             width: 100%;
             height: 180px;
             padding: 15px;
@@ -72,12 +64,7 @@
             }    
         }
     }
-}
 
-.container{
-    padding:20px;
-    color: #0288d1;
-}
 
 .btn{
     background-color: #0288d1;
