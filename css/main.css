@@ -112,6 +112,21 @@ img.muy-pequena {
   height: 50px;
 }
 
+.btn {
+  background-color: #0288d1;
+  padding-bottom: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.btn:hover {
+  background-color: #0288d1;
+  border-color: red;
+  border-width: 5px;
+}
+
 /*Header*/
 header {
   background-image: url(./../img/banner-playa-palapas.jpg);
@@ -144,7 +159,7 @@ header nav ul li a:hover {
 }
 
 ul.navega li {
-  display: inline;
+  display: inline-flexbox;
 }
 
 .menu {
@@ -466,7 +481,7 @@ ul.navega li {
   border-radius: 10px;
   resize: vertical;
 }
-#contacto-section #mensaje input[type=submit] {
+#contacto-section [type=submit] {
   width: 50%;
   margin-left: 110px;
   background-color: #0288d1;
@@ -477,22 +492,7 @@ ul.navega li {
   padding: 10px 15px;
   transition: border color 0.3s ease;
 }
-#contacto-section #mensaje input[type=submit]:hover {
-  background-color: #0288d1;
-  border-color: red;
-  border-width: 5px;
-}
-
-.btn {
-  background-color: #0288d1;
-  padding-bottom: 10px;
-  color: #fff;
-  font-size: 20px;
-  font-weight: bold;
-  margin-top: 10px;
-  margin-bottom: 5px;
-}
-.btn:hover {
+#contacto-section [type=submit]:hover {
   background-color: #0288d1;
   border-color: red;
   border-width: 5px;
@@ -513,6 +513,9 @@ ul.navega li {
   }
   header header nav ul li a {
     color: rgb(248, 245, 245);
+  }
+  header ul.navega li {
+    display: inline;
   }
   .grid-galeria {
     grid-template-columns: repeat(2, 1fr);
@@ -535,7 +538,7 @@ ul.navega li {
     grid-area: img5;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) and (min-width: 1024px) {
   header nav ul li a {
     color: rgb(12, 13, 13);
     align-items: center;

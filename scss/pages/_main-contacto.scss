@@ -38,18 +38,19 @@
             border-radius: 10px;
         }
         #mensaje {
-            width: 100%;
-            height: 180px;
-            padding: 15px;
-            box-sizing: border-box;
-            font-size: 15px;
-            margin-bottom: 15px;
-            border-radius: 10px;
-            resize: vertical;
-        input[type="submit"] {
+                    width: 100%;
+                    height: 180px;
+                    padding: 15px;
+                    box-sizing: border-box;
+                    font-size: 15px;
+                    margin-bottom: 15px;
+                    border-radius: 10px;
+                    resize: vertical;
+        }
+        [type="submit"] {
             width: 50%;
             margin-left: 110px;
-            background-color: #0288d1;
+            background-color:#0288d1;
             color: #fff;
             font-size: 20px;
             font-weight: bold;
@@ -61,22 +62,6 @@
                 border-color: red;
                 border-width: 5px;
                 }
-            }    
+            }   
         }
-    }
 
-
-.btn{
-    background-color: #0288d1;
-    padding-bottom: 10px;
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    &:hover{
-        background-color: #0288d1;
-        border-color: red;
-        border-width: 5px;
-    }
-}

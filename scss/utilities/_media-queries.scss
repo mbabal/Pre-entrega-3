@@ -7,7 +7,10 @@
         padding: 15px;
         header nav ul li a{
             color: rgb(248, 245, 245);
-        }   
+        }
+    ul.navega li{
+        display: inline;
+        }    
     }
 
 //Galeria//
@@ -36,7 +39,7 @@
     .img-5{
             grid-area: img5;
         }
-    }
+
 
 @media screen and (min-width: 1024px){
 
@@ -55,4 +58,5 @@
         "img1 img4 img4"
         "img1 img5 img5";
     }
+}
 }
