@@ -7,10 +7,9 @@
     border-radius: 5px 5px 5px 5px;
 }
 .position-fixed{
-    position: fixed;
+    @include position-fixed (position,border);
     bottom: 15px;
     right: 20px;    
-    border: none;
     opacity: 100%;
     img{
         width: 70px;

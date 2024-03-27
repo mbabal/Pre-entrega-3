@@ -1,5 +1,12 @@
-/*reset*/
 @import url(https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap);
+.btn {
+  background-color: #0288d1;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*reset*/
 * {
   margin: 0;
   padding: 0;
@@ -38,7 +45,7 @@ h3 {
 }
 
 h4 {
-  color: rgb(7, 54, 7);
+  color: rgb(1, 27, 1);
   text-transform: uppercase;
   text-align: left;
   font-weight: bold;
@@ -113,11 +120,7 @@ img.muy-pequena {
 }
 
 .btn {
-  background-color: #0288d1;
   padding-bottom: 10px;
-  color: #fff;
-  font-size: 20px;
-  font-weight: bold;
   margin-top: 10px;
   margin-bottom: 5px;
 }
@@ -160,6 +163,7 @@ header nav ul li a:hover {
 
 ul.navega li {
   display: inline-flexbox;
+  text-align: center;
 }
 
 .menu {
@@ -181,10 +185,10 @@ ul.navega li {
 }
 
 .position-fixed {
-  position: fixed;
+  position: position;
+  border: border;
   bottom: 15px;
   right: 20px;
-  border: none;
   opacity: 100%;
 }
 .position-fixed img {
@@ -207,10 +211,13 @@ ul.navega li {
 
 /*Nosotros*/
 .position-fixed {
-  position: fixed;
+  position: position;
+  border: border;
   bottom: 15px;
   right: 20px;
-  border: none;
+  opacity: 100%;
+  bottom: 15px;
+  right: 20px;
   opacity: 100%;
 }
 .position-fixed img {
@@ -289,7 +296,7 @@ ul.navega li {
 
 @keyframes flight {
   100% {
-    transform: translate(1500px);
+    transform: translate(768px);
   }
 }
 /*Galeria*/
@@ -537,6 +544,11 @@ ul.navega li {
   .img-5 {
     grid-area: img5;
   }
+  @keyframes flight {
+    100% {
+      transform: translate(1024px);
+    }
+  }
 }
 @media screen and (min-width: 768px) and (min-width: 1024px) {
   header nav ul li a {
@@ -548,6 +560,11 @@ ul.navega li {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 30vh);
     grid-template-areas: "img1 img2 img3" "img1 img4 img4" "img1 img5 img5";
+  }
+  @keyframes flight {
+    100% {
+      transform: translate(1500px);
+    }
   }
 }
 

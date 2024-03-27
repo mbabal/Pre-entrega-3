@@ -40,6 +40,11 @@
             grid-area: img5;
         }
 
+        @keyframes flight{
+            100%{
+                transform: translate(1024px) ;
+            }
+        }
 
 @media screen and (min-width: 1024px){
 
@@ -58,5 +63,12 @@
         "img1 img4 img4"
         "img1 img5 img5";
     }
+    @keyframes flight{
+        100%{
+            transform: translate(1500px) ;
+        }
+    }
+
 }
+
 }

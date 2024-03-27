@@ -1,9 +1,11 @@
 /*Nosotros*/
 .position-fixed{
-    position: fixed;
+    @include position-fixed (position,border);
     bottom: 15px;
     right: 20px;    
-    border: none;
+    opacity: 100%;
+    bottom: 15px;
+    right: 20px;    
     opacity: 100%;
     img{
         width: 70px;

@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap);
 
 h1{
-    color: rgb(7, 54, 7);
+    color: $color-texto-principal;
     text-align: center;
     text-transform: uppercase;
     font-size: 50px;
@@ -11,7 +11,7 @@ h1{
     margin: 20px;
 }
 h2{
-    color: rgb(1, 27, 1);
+    color: $color-texto-secundario;
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
@@ -20,7 +20,7 @@ h2{
     padding-top: 50px;
 } 
 h3{
-    color: rgb(1, 27, 1);
+    color: $color-texto-secundario;
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
@@ -30,7 +30,7 @@ h3{
 } 
 
 h4{
-    color:rgb(7, 54, 7); 
+    color: $color-texto-secundario;
     text-transform: uppercase;
     text-align: left;
     font-weight: bold;
@@ -99,11 +99,8 @@ img.muy-pequena{
     height: 50px;
 }
 .btn{
-    background-color: #0288d1;
+    @extend %estilos;
     padding-bottom: 10px;
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
     margin-top: 10px;
     margin-bottom: 5px;
     &:hover{
